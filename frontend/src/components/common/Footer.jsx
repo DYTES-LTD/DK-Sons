@@ -23,7 +23,7 @@ const Footer = () => {
         <div>
           <h2 className="font-semibold text-sm mb-3">Quick Links</h2>
           <ul className="space-y-2 text-zinc-300 text-sm">
-            <li><Link to="/about-us">About Us</Link></li>
+            <li><Link to="/About-us">About Us</Link></li>
             <li><Link to="/Blogs">Blogs</Link></li>
             <li><Link to="/our-products">Products</Link></li>
           </ul>
@@ -32,9 +32,9 @@ const Footer = () => {
         {/* Policies & Contact */}
         <div>
           <h2 className="font-semibold text-sm mb-3">Information</h2>
-          <ul className="space-y-2 text-zinc-300 text-sm">
-            <li className="flex items-center">
-              <FaEnvelope className="mr-2" />
+          <ul className="space-y-2 text-zinc-300 text-sm cursor-pointer">
+            <li className="flex items-center ">
+              <FaEnvelope className="mr-2 cursor-pointer" />
               sameer@dksons.co
             </li>
             <li><Link to="/Terms_And_Conditons">Terms & Conditions</Link></li>
